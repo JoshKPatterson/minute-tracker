@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem;
+    padding: 1rem;
     height: 100vh;
-    color:#3561fe;
+    color: #a0a2a7;
 }
 
 .container h1 {
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    color:#3561fe;
 }
 
 .container p span {
@@ -27,10 +28,12 @@
     flex-direction: column;
 }
 
+
+
 .loginTextInput {
     border: none;
     background-color: #f3f6ff;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     margin-top: 2rem;
     border-radius: 1rem;
     text-indent: 1rem;
@@ -47,13 +50,12 @@
     border: none;
     border-radius: 1rem;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     margin-bottom: 1rem;
 }
 
 .loginForgotPassword {
     text-align: end;
-    color: #a0a2a7;
     margin: 0.5rem 0 2rem 0;
 }
 
@@ -64,7 +66,7 @@
     font-size: 10pt;
     justify-content: space-between;
     align-items: center;
-    color: #a0a2a7;
+    margin: 2rem 0 1rem 0;
 }
 
 .loginOauthTitle span {
@@ -78,14 +80,28 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .loginOauthButton {
     background-color: white;
-    width: 40%;
+    width: 45%;
     padding: 1rem 0;
     border-radius: 1rem;
     border-color: #d5e5fe;
     border-style: solid;
+    border-width: 1px;
+    color: #a0a2a7;
+    display: flex;
+    justify-content: center;
+}
+
+.loginOauthButton img {
+    max-width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.container p span {
+    color:#3561fe;
 }

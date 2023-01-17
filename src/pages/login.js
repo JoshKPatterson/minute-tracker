@@ -18,8 +18,8 @@ const login = () => {
           <span />
         </div>
         <div className={styles.loginOauthOptions} >
-          <button className={styles.loginOauthButton}>Google</button>
-          <button className={styles.loginOauthButton}>Facebook</button>
+          <button className={styles.loginOauthButton}><img src='/google-color-svgrepo-com.svg' />Google</button>
+          <button className={styles.loginOauthButton}><img src='/facebook-color-svgrepo-com.svg' />Facebook</button>
         </div>
         <p>Don't have an account? <span>Sign up</span></p>
     </div>
