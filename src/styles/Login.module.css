@@ -34,7 +34,7 @@
     border: none;
     background-color: #f3f6ff;
     padding: 1.2rem 0;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 1rem;
     text-indent: 1rem;
 }
@@ -56,7 +56,7 @@
 
 .loginForgotPassword {
     text-align: end;
-    margin: 0.5rem 0 2rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .loginOauthTitle {
@@ -66,27 +66,32 @@
     font-size: 10pt;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0;
 }
 
 .loginOauthTitle span {
     height: 1px;
-    width: 3rem;
+    /* width: 3rem; */
+    flex: 1;
     background-color: #a0a2a7;
     display: block;
 }
 
-.loginOauthOptions {
+.loginOauthTitle p {
+    margin: 0 1rem;
+}
+
+.loginOauth {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .loginOauthButton {
     background-color: white;
-    width: 45%;
+    width: 100%;
     padding: 1rem 0;
     border-radius: 1rem;
     border-color: #d5e5fe;
@@ -95,6 +100,11 @@
     color: #a0a2a7;
     display: flex;
     justify-content: center;
+}
+
+.loginOauthButton:first-of-type {
+    margin-bottom: 1rem;
+
 }
 
 .loginOauthButton img {
